@@ -1,0 +1,62 @@
+# Credit1099
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**document_id** | Option<**String**> | An identifier of the document referenced by the document metadata. | 
+**document_metadata** | Option<[**crate::models::CreditDocumentMetadata**](CreditDocumentMetadata.md)> |  | [optional]
+**form_1099_type** | Option<[**crate::models::Form1099Type**](Form1099Type.md)> |  | [optional]
+**recipient** | Option<[**crate::models::Credit1099Recipient**](Credit1099Recipient.md)> |  | [optional]
+**payer** | Option<[**crate::models::Credit1099Payer**](Credit1099Payer.md)> |  | [optional]
+**filer** | Option<[**crate::models::Credit1099Filer**](Credit1099Filer.md)> |  | [optional]
+**tax_year** | Option<**String**> | Tax year of the tax form. | [optional]
+**rents** | Option<**f64**> | Amount in rent by payer. | [optional]
+**royalties** | Option<**f64**> | Amount in royalties by payer. | [optional]
+**other_income** | Option<**f64**> | Amount in other income by payer. | [optional]
+**federal_income_tax_withheld** | Option<**f64**> | Amount of federal income tax withheld from payer. | [optional]
+**fishing_boat_proceeds** | Option<**f64**> | Amount of fishing boat proceeds from payer. | [optional]
+**medical_and_healthcare_payments** | Option<**f64**> | Amount of medical and healthcare payments from payer. | [optional]
+**nonemployee_compensation** | Option<**f64**> | Amount of nonemployee compensation from payer. | [optional]
+**substitute_payments_in_lieu_of_dividends_or_interest** | Option<**f64**> | Amount of substitute payments made by payer. | [optional]
+**payer_made_direct_sales_of_5000_or_more_of_consumer_products_to_buyer** | Option<**String**> | Whether or not payer made direct sales over $5000 of consumer products. | [optional]
+**crop_insurance_proceeds** | Option<**f64**> | Amount of crop insurance proceeds. | [optional]
+**excess_golden_parachute_payments** | Option<**f64**> | Amount of golden parachute payments made by payer. | [optional]
+**gross_proceeds_paid_to_an_attorney** | Option<**f64**> | Amount of gross proceeds paid to an attorney by payer. | [optional]
+**section_409a_deferrals** | Option<**f64**> | Amount of 409A deferrals earned by payer. | [optional]
+**section_409a_income** | Option<**f64**> | Amount of 409A income earned by payer. | [optional]
+**state_tax_withheld** | Option<**f64**> | Amount of state tax withheld of payer for primary state. | [optional]
+**state_tax_withheld_lower** | Option<**f64**> | Amount of state tax withheld of payer for secondary state. | [optional]
+**payer_state_number** | Option<**String**> | Primary state ID. | [optional]
+**payer_state_number_lower** | Option<**String**> | Secondary state ID. | [optional]
+**state_income** | Option<**f64**> | State income reported for primary state. | [optional]
+**state_income_lower** | Option<**f64**> | State income reported for secondary state. | [optional]
+**transactions_reported** | Option<**String**> | One of the values will be provided Payment card Third party network | [optional]
+**pse_name** | Option<**String**> | Name of the PSE (Payment Settlement Entity). | [optional]
+**pse_telephone_number** | Option<**String**> | Formatted (XXX) XXX-XXXX. Phone number of the PSE (Payment Settlement Entity). | [optional]
+**gross_amount** | Option<**f64**> | Gross amount reported. | [optional]
+**card_not_present_transaction** | Option<**f64**> | Amount in card not present transactions. | [optional]
+**merchant_category_code** | Option<**String**> | Merchant category of filer. | [optional]
+**number_of_payment_transactions** | Option<**String**> | Number of payment transactions made. | [optional]
+**january_amount** | Option<**f64**> | Amount reported for January. | [optional]
+**february_amount** | Option<**f64**> | Amount reported for February. | [optional]
+**march_amount** | Option<**f64**> | Amount reported for March. | [optional]
+**april_amount** | Option<**f64**> | Amount reported for April. | [optional]
+**may_amount** | Option<**f64**> | Amount reported for May. | [optional]
+**june_amount** | Option<**f64**> | Amount reported for June. | [optional]
+**july_amount** | Option<**f64**> | Amount reported for July. | [optional]
+**august_amount** | Option<**f64**> | Amount reported for August. | [optional]
+**september_amount** | Option<**f64**> | Amount reported for September. | [optional]
+**october_amount** | Option<**f64**> | Amount reported for October. | [optional]
+**november_amount** | Option<**f64**> | Amount reported for November. | [optional]
+**december_amount** | Option<**f64**> | Amount reported for December. | [optional]
+**primary_state** | Option<**String**> | Primary state of business. | [optional]
+**secondary_state** | Option<**String**> | Secondary state of business. | [optional]
+**primary_state_id** | Option<**String**> | Primary state ID. | [optional]
+**secondary_state_id** | Option<**String**> | Secondary state ID. | [optional]
+**primary_state_income_tax** | Option<**f64**> | State income tax reported for primary state. | [optional]
+**secondary_state_income_tax** | Option<**f64**> | State income tax reported for secondary state. | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
